@@ -7,6 +7,7 @@ $full-height: 100%;
 $primary-color: rgba(245,193,35,0.7);
 $title-font: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 $secondary-color: #6D1C2E;
+$body-font: 'Lato',sans-serif;
 
 body {
 	height: $full-height;
@@ -62,13 +63,79 @@ body {
 
 // Section One
 
+.section, .section {
+	margin-top: 7%;
+	margin-bottom: 2%;
+	// height: 200px;
+	width: 100%;
+}
+
+.section {
+	// background-color: red;
+}
+
 .column1 {
-	height: 200px;
-	background-color: red;
+	height: 100%;
+	// background-color: red;
 }
 
 .column2 {
 	@extend .column1;
-	background-color: orange;
+	// background-color: orange;
 }
 
+.column-space {
+	// padding: 0 4px;
+	// width: 100%;
+}
+
+.columns {
+	overflow: hidden;
+}
+
+.move-left {
+	margin-left: 4%;
+}
+
+.section-title {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-family: $body-font;
+	// font-weight: 700;
+}
+
+.section-text {
+	font-family: $body-font;
+	// width: 70%;
+	text-align: justify;
+	// line-height: 1.6em;
+}
+
+.wdth-65 {
+	width: 65%;
+}
+
+.img-clmn {
+	padding-left: 3%;
+}
+
+.cta-text {
+	@extend .section-title;
+	text-align: center;
+	padding-top: 3%;
+	color: $secondary-color;
+	text-decoration: none;
+}
+
+.footer {
+	padding: 2% 0;
+	font-family: $body-font;
+	text-align: center;
+}
+
+// .section-text2 {
+// 	@extend .section-text;
+// 	// width: 100%;
+// }
+
+	
