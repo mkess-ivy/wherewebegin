@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Orator Std";
+  src: url("http://www.myfontfree.com/data/54/o/orator-std/OratorStd.otf"); }
+body {
+  height: 100%; }
+
+.fullContainer {
+  height: 100%;
+  position: relative;
+  background-color: rgba(245, 193, 35, 0.7); }
+
+.hero-img {
+  text-align: center; }
+
+.header {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: line-through;
+  padding-top: 3%;
+  color: #6D1C2E; }
+
+.hero-text, .hero-subtitle, .hero-super-subtitle {
+  text-align: center;
+  color: white;
+  font-family: "OratorStd", sans-serif; }
+
+.text-style-1 {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  top: -30vh;
+  font-size: 1.5em; }
+
+.hero-subtitle {
+  line-height: 1.9em;
+  font-size: 1.2em;
+  padding-bottom: 10%; }
+
+.hero-super-subtitle {
+  font-size: 2.5em;
+  color: #6D1C2E;
+  font-weight: bold; }
+
+.column1, .column2 {
+  height: 200px;
+  background-color: red; }
+
+.column2 {
+  background-color: orange; }
+
+/*# sourceMappingURL=styles.css.map */
