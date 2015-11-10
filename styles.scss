@@ -8,6 +8,10 @@ $primary-color: rgba(245,193,35,0.7);
 $title-font: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 $secondary-color: #6D1C2E;
 $body-font: 'Lato',sans-serif;
+$tablet: "screen and (max-width: 768px)";
+$desktop: "(min-width: 1024px)";
+$img-padding: 40vh 0;
+$create-space: 2%;
 
 body {
 	height: $full-height;
@@ -66,27 +70,15 @@ body {
 .section, .section {
 	margin-top: 7%;
 	margin-bottom: 2%;
-	// height: 200px;
 	width: 100%;
-}
-
-.section {
-	// background-color: red;
 }
 
 .column1 {
 	height: 100%;
-	// background-color: red;
 }
 
 .column2 {
 	@extend .column1;
-	// background-color: orange;
-}
-
-.column-space {
-	// padding: 0 4px;
-	// width: 100%;
 }
 
 .columns {
@@ -95,35 +87,38 @@ body {
 
 .move-left {
 	margin-left: 4%;
+
+	@media #{$tablet} {
+		margin-left: 0;
+	}
 }
 
 .section-title {
 	text-transform: uppercase;
 	font-size: 1.3em;
 	font-family: $body-font;
-	// font-weight: 700;
 }
 
 .section-text {
 	font-family: $body-font;
-	// width: 70%;
 	text-align: justify;
-	// line-height: 1.6em;
 }
 
-.wdth-65 {
-	width: 65%;
+.wdth-100 {
+	width: 100%;
 }
 
 .img-clmn {
 	padding-left: 3%;
+
+	@media #{$tablet} {
+		padding-left: 0;
+	}
 }
 
 .cta-text {
-	@extend .section-title;
+	font-family: $body-font;
 	text-align: center;
-	padding-top: 3%;
-	color: $secondary-color;
 	text-decoration: none;
 }
 
@@ -133,9 +128,83 @@ body {
 	text-align: center;
 }
 
-// .section-text2 {
-// 	@extend .section-text;
-// 	// width: 100%;
-// }
+.cta-text-section {
+	margin-top: 2%;
+	margin: 0 auto;	
+}
 
-	
+	a {
+		text-align: center;
+		font-family: $body-font;
+		text-decoration: none;
+		color: black;
+	}
+
+	a:hover {
+		color: $secondary-color;
+		text-decoration: line-through;
+		font-weight: bold;
+	}
+
+.one-half, .column {
+	@media #{$tablet} {
+		width: 100%;
+	}
+}
+
+.img-here {
+	width: 100%;
+}
+
+.bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.img4 {
+	background-image: url('images/img4.jpg');
+	padding: $img-padding;
+}
+
+.img3 {
+	background-image: url('images/img_5096.jpg');
+	padding: $img-padding;
+
+	@media #{$tablet} {
+		margin-top: $create-space;
+	}
+}
+
+.img2 {
+	background-image: url('images/img_4900.jpg');
+	padding: $img-padding;
+
+	@media #{$tablet} {
+		margin-top: $create-space;
+	}
+}
+
+.img1 {
+	background-image: url('images/img_5114.jpg');
+	padding: $img-padding;
+
+	@media #{$tablet} {
+		margin-top: $create-space;
+	}
+
+}
+
+.three {
+	@media #{$tablet} {
+		margin-top: $create-space;
+	}
+}
+
+.icon {
+	width: 27px;
+	// background-color: black;
+	padding: 13px;
+	margin: 0 auto;
+	background-image: url('images/mask-icon.png');
+}
