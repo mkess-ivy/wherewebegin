@@ -9,20 +9,8 @@ body {
   position: relative;
   background-color: rgba(245, 193, 35, 0.7); }
 
-.logos {
-  background-image: url("images/logos2.png");
-  padding: 12% 0; }
-
 .hero-img {
-  text-align: center;
-  background-image: url("images/mask3.png");
-  height: 65vh;
-  width: 60%;
-  margin: 0 auto; }
-  @media screen and (max-width: 768px) {
-    .hero-img {
-      height: 40vh;
-      width: 60%; } }
+  text-align: center; }
 
 .header {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
@@ -56,22 +44,8 @@ body {
   font-weight: bold; }
 
 .videos {
-  text-align: center; }
-  @media screen and (max-width: 900px) {
-    .videos {
-      position: relative;
-      padding-bottom: 56.25%;
-      padding-top: 30px;
-      height: 0;
-      overflow: hidden; } }
-
-@media screen and (max-width: 900px) {
-  .videos iframe, .videos object, .videos embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; } }
+  background: red;
+  height: 40vh; }
 
 .section, .section {
   margin-top: 7%;
@@ -97,8 +71,7 @@ body {
 
 .section-text {
   font-family: "Lato", sans-serif;
-  text-align: justify;
-  width: 100%; }
+  text-align: justify; }
 
 .wdth-100 {
   width: 100%; }
@@ -162,8 +135,7 @@ a:hover {
   padding: 40vh 0; }
   @media screen and (max-width: 768px) {
     .img2 {
-      margin-top: 2%;
-      width: 100%; } }
+      margin-top: 2%; } }
 
 .img1 {
   background-image: url("images/img_5114.jpg");
@@ -171,13 +143,6 @@ a:hover {
   @media screen and (max-width: 768px) {
     .img1 {
       margin-top: 2%; } }
-  .img1 .logos {
-    background-image: url("images/logos2.png");
-    padding: 40vh 0; }
-    @media screen and (max-width: 768px) {
-      .img1 .logos {
-        margin-top: 2%;
-        width: 100%; } }
 
 @media screen and (max-width: 768px) {
   .three {
@@ -189,4 +154,4 @@ a:hover {
   margin: 0 auto;
   background-image: url("images/mask-icon.png"); }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */
