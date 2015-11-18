@@ -146,36 +146,36 @@ a:hover {
   background-size: cover;
   background-position: 50% 50%; }
 
+.img5 {
+  background-image: url("images/img5.jpg");
+  padding: 40vh 0; }
+
 .img4 {
   background-image: url("images/img4.jpg");
   padding: 40vh 0; }
+  @media screen and (max-width: 768px) {
+    .img4 {
+      margin-top: 2%; } }
 
 .img3 {
-  background-image: url("images/img_5096.jpg");
+  background-image: url("images/img3.jpg");
   padding: 40vh 0; }
   @media screen and (max-width: 768px) {
     .img3 {
-      margin-top: 2%; } }
-
-.img2 {
-  background-image: url("images/img_4900.jpg");
-  padding: 40vh 0; }
-  @media screen and (max-width: 768px) {
-    .img2 {
       margin-top: 2%;
       width: 100%; } }
 
-.img1 {
-  background-image: url("images/img_5114.jpg");
+.img2 {
+  background-image: url("images/img2.jpg");
   padding: 40vh 0; }
   @media screen and (max-width: 768px) {
-    .img1 {
+    .img2 {
       margin-top: 2%; } }
-  .img1 .logos {
+  .img2 .logos {
     background-image: url("images/logos2.png");
     padding: 40vh 0; }
     @media screen and (max-width: 768px) {
-      .img1 .logos {
+      .img2 .logos {
         margin-top: 2%;
         width: 100%; } }
 
