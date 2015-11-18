@@ -208,13 +208,13 @@ body {
 	background-position: 50% 50%;
 }
 
-.img4 {
-	background-image: url('images/img4.jpg');
+.img5 {
+	background-image: url('images/img5.jpg');
 	padding: $img-padding;
 }
 
-.img3 {
-	background-image: url('/images/img_5096.jpg');
+.img4 {
+	background-image: url('images/img4.jpg');
 	padding: $img-padding;
 
 	@media #{$tablet} {
@@ -222,8 +222,8 @@ body {
 	}
 }
 
-.img2 {
-	background-image: url('/images/img_4900.jpg');
+.img3 {
+	background-image: url('images/img3.jpg');
 	padding: $img-padding;
 
 	@media #{$tablet} {
@@ -232,8 +232,8 @@ body {
 	}
 }
 
-.img1 {
-	background-image: url('/images/img_5114.jpg');
+.img2 {
+	background-image: url('images/img2.jpg');
 	padding: $img-padding;
 
 	@media #{$tablet} {
