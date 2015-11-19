@@ -49,8 +49,14 @@ body {
   position: relative;
   z-index: 3;
   text-align: center;
-  top: -30vh;
+  top: 32vh;
   font-size: 1.5em; }
+  @media screen and (max-width: 768px) {
+    .text-style-1 {
+      top: 18vh; } }
+  @media screen and (max-width: 465px) {
+    .text-style-1 {
+      font-size: 1.1em; } }
 
 .hero-subtitle {
   line-height: 1.9em;
